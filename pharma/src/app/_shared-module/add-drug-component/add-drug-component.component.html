@@ -1,0 +1,160 @@
+<div class="add-drug-container" style="position: relative;">
+  <span class="close-btn" (click)="onCancel()" style="position: absolute; top: 10px; right: 10px; cursor: pointer;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0071bd">
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+    </svg>
+  </span>
+  <h2 class="dialog-title">Add New Drug</h2>
+  <div class="dialog-content">
+    <form [formGroup]="drugForm" (ngSubmit)="onSubmit()" class="drug-form">
+      <div class="form-row row">
+        <div class="form-group col">
+          <label for="name">Name</label>
+          <input type="text" id="name" formControlName="name" placeholder="Enter drug name" required list="drugNameList">
+          <datalist id="drugNameList">
+            <option value="Acetaminophen">
+            <option value="Ibuprofen">
+            <option value="Amoxicillin">
+            <option value="Lisinopril">
+            <option value="Levothyroxine">
+            <option value="Metformin">
+            <option value="Amlodipine">
+            <option value="Metoprolol">
+            <option value="Omeprazole">
+            <option value="Gabapentin">
+          </datalist>
+          <div class="error-message" *ngIf="drugForm.get('name')?.hasError('required') && drugForm.get('name')?.touched">
+            Name is required
+          </div>
+        </div>
+        <div class="form-group col">
+          <label for="manufacturer">Manufacturer</label>
+          <input type="text" id="manufacturer" formControlName="manufacturer" placeholder="Enter manufacturer" required list="manufacturerList">
+          <datalist id="manufacturerList">
+            <option value="Sun Pharmaceutical Industries Ltd.">
+            <option value="Cipla Ltd.">
+            <option value="Dr. Reddy's Laboratories Ltd.">
+            <option value="Lupin Ltd.">
+            <option value="Aurobindo Pharma Ltd.">
+            <option value="Zydus Cadila">
+            <option value="Torrent Pharmaceuticals Ltd.">
+          </datalist>
+          <div class="error-message" *ngIf="drugForm.get('manufacturer')?.hasError('required') && drugForm.get('manufacturer')?.touched">
+            Manufacturer is required
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row row">
+        <div class="form-group col">
+          <label for="manufacturedDate">Manufactured Date</label>
+          <input type="date" id="manufacturedDate" formControlName="manufacturedDate" required>
+          <div class="error-message" *ngIf="drugForm.get('manufacturedDate')?.hasError('required') && drugForm.get('manufacturedDate')?.touched">
+            Manufactured date is required
+          </div>
+        </div>
+        <div class="form-group col">
+          <label for="expiryDate">Expiry Date</label>
+          <input type="date" id="expiryDate" formControlName="expiryDate" required>
+          <div class="error-message" *ngIf="drugForm.get('expiryDate')?.hasError('required') && drugForm.get('expiryDate')?.touched">
+            Expiry date is required
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row row">
+        <div class="form-group col">
+          <label for="totalQuantity">Total Quantity</label>
+          <input type="number" id="totalQuantity" formControlName="totalQuantity" placeholder="Enter total quantity" required>
+          <div class="error-message" *ngIf="drugForm.get('totalQuantity')?.hasError('required') && drugForm.get('totalQuantity')?.touched">
+            Total quantity is required
+          </div>
+          <div class="error-message" *ngIf="drugForm.get('totalQuantity')?.hasError('min') && drugForm.get('totalQuantity')?.touched">
+            Quantity must be 0 or greater
+          </div>
+        </div>
+        <div class="form-group col">
+          <label for="location">Location</label>
+          <input type="text" id="location" formControlName="location" placeholder="Enter storage location" required>
+          <div class="error-message" *ngIf="drugForm.get('location')?.hasError('required') && drugForm.get('location')?.touched">
+            Location is required
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row row">
+        <div class="form-group col">
+          <label for="description">Description</label>
+          <textarea id="description" formControlName="description" placeholder="Enter drug description"></textarea>
+        </div>
+        <div class="form-group col">
+          <label for="price">Price</label>
+          <input type="number" id="price" formControlName="price" placeholder="Enter price" required>
+          <div class="error-message" *ngIf="drugForm.get('price')?.hasError('required') && drugForm.get('price')?.touched">
+            Price is required
+          </div>
+          <div class="error-message" *ngIf="drugForm.get('price')?.hasError('min') && drugForm.get('price')?.touched">
+            Price must be 0 or greater
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row row">
+        <div class="form-group col">
+          <label for="dosageForm">Dosage Form</label>
+          <select id="dosageForm" formControlName="dosageForm" required>
+            <option value="">Select dosage form</option>
+            <option value="tablet">Tablet</option>
+            <option value="capsule">Capsule</option>
+            <option value="liquid">Liquid</option>
+            <option value="injection">Injection</option>
+            <option value="cream">Cream</option>
+            <option value="ointment">Ointment</option>
+            <option value="inhaler">Inhaler</option>
+            <option value="patch">Patch</option>
+            <option value="suppository">Suppository</option>
+            <option value="other">Other</option>
+          </select>
+          <div class="error-message" *ngIf="drugForm.get('dosageForm')?.hasError('required') && drugForm.get('dosageForm')?.touched">
+            Dosage form is required
+          </div>
+        </div>
+        <div class="form-group col">
+          <label for="strength">Strength</label>
+          <select id="strength" formControlName="strength" required>
+            <option value="">Select strength</option>
+            <option value="5mg">5mg</option>
+            <option value="10mg">10mg</option>
+            <option value="20mg">20mg</option>
+            <option value="50mg">50mg</option>
+            <option value="100mg">100mg</option>
+            <option value="250mg">250mg</option>
+            <option value="500mg">500mg</option>
+            <option value="1g">1g</option>
+            <option value="other">Other</option>
+          </select>
+          <div class="error-message" *ngIf="drugForm.get('strength')?.hasError('required') && drugForm.get('strength')?.touched">
+            Strength is required
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row row">
+        <div class="form-group col">
+          <label for="quantityAvailable">Quantity Available</label>
+          <input type="number" id="quantityAvailable" formControlName="quantityAvailable" placeholder="Enter available quantity" required>
+          <div class="error-message" *ngIf="drugForm.get('quantityAvailable')?.hasError('required') && drugForm.get('quantityAvailable')?.touched">
+            Available quantity is required
+          </div>
+          <div class="error-message" *ngIf="drugForm.get('quantityAvailable')?.hasError('min') && drugForm.get('quantityAvailable')?.touched">
+            Quantity must be 0 or greater
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="form-actions">
+    <button type="button" (click)="onCancel()" class="btn btn-secondary">Cancel</button>&nbsp;&nbsp;&nbsp;
+    <button type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="drugForm.invalid">Add Drug</button>
+  </div>
+</div>

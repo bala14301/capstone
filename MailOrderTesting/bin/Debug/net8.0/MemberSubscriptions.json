@@ -1,0 +1,103 @@
+﻿[
+  {
+    "id": 1,
+    "memberId": "M001",
+    "subscriptionDate": "2024-03-15T10:30:00.000Z",
+    "prescriptionId": 101,
+    "refillOccurrence": "Monthly",
+    "memberLocation": "New York",
+    "endDate": "2025-03-15T10:30:00.000Z",
+    "startDate": "2024-03-15T10:30:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 2,
+    "memberId": "M002",
+    "subscriptionDate": "2024-04-01T14:45:00.000Z",
+    "prescriptionId": 102,
+    "refillOccurrence": "Weekly",
+    "memberLocation": "Los Angeles",
+    "endDate": "2024-10-01T14:45:00.000Z",
+    "startDate": "2024-04-01T14:45:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 3,
+    "memberId": "M003",
+    "subscriptionDate": "2024-05-10T09:15:00.000Z",
+    "prescriptionId": 103,
+    "refillOccurrence": "Bi-weekly",
+    "memberLocation": "Chicago",
+    "endDate": "2025-05-10T09:15:00.000Z",
+    "startDate": "2024-05-10T09:15:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 4,
+    "memberId": "M004",
+    "subscriptionDate": "2024-06-20T16:00:00.000Z",
+    "prescriptionId": 104,
+    "refillOccurrence": "Monthly",
+    "memberLocation": "Houston",
+    "endDate": "2024-12-20T16:00:00.000Z",
+    "startDate": "2024-06-20T16:00:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 5,
+    "memberId": "M005",
+    "subscriptionDate": "2024-07-05T11:30:00.000Z",
+    "prescriptionId": 105,
+    "refillOccurrence": "Weekly",
+    "memberLocation": "Phoenix",
+    "endDate": "2025-01-05T11:30:00.000Z",
+    "startDate": "2024-07-05T11:30:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 6,
+    "memberId": "M006",
+    "subscriptionDate": "2024-08-12T13:45:00.000Z",
+    "prescriptionId": 106,
+    "refillOccurrence": "Monthly",
+    "memberLocation": "Philadelphia",
+    "endDate": "2025-08-12T13:45:00.000Z",
+    "startDate": "2024-08-12T13:45:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 7,
+    "memberId": "M007",
+    "subscriptionDate": "2024-09-25T10:00:00.000Z",
+    "prescriptionId": 107,
+    "refillOccurrence": "Bi-weekly",
+    "memberLocation": "San Antonio",
+    "endDate": "2025-03-25T10:00:00.000Z",
+    "startDate": "2024-09-25T10:00:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 8,
+    "memberId": "M008",
+    "subscriptionDate": "2024-10-30T15:30:00.000Z",
+    "prescriptionId": 108,
+    "refillOccurrence": "Monthly",
+    "memberLocation": "San Diego",
+    "endDate": "2025-10-30T15:30:00.000Z",
+    "startDate": "2024-10-30T15:30:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 9,
+    "memberId": "M009",
+    "subscriptionDate": "2024-11-15T12:15:00.000Z",
+    "prescriptionId": 109,
+    "refillOccurrence": "Weekly",
+    "memberLocation": "Dallas",
+    "endDate": "2025-05-15T12:15:00.000Z",
+    "startDate": "2024-11-15T12:15:00.000Z",
+    "subscriptionStatus": 1
+  },
+  {
+    "id": 10,
+    "memberI

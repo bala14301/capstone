@@ -1,0 +1,82 @@
+[
+  {
+    "doctorName": "Sampath",
+    "specialization": "Oncology",
+    "experience": 5,
+    "emailId": "sampath@gmail.com",
+    "mobileNo": "+91 9494744282",
+    "location": "Nellore"
+  },
+  {
+    "doctorName": "Emily Chen",
+    "specialization": "Cardiology",
+    "experience": 8,
+    "emailId": "emily.chen@email.com",
+    "mobileNo": "+1 555-123-4567",
+    "location": "New York"
+  },
+  {
+    "doctorName": "Mohammed Al-Fayed",
+    "specialization": "Neurology",
+    "experience": 12,
+    "emailId": "m.alfayed@hospital.ae",
+    "mobileNo": "+971 50 123 4567",
+    "location": "Dubai"
+  },
+  {
+    "doctorName": "Sophie Martin",
+    "specialization": "Pediatrics",
+    "experience": 6,
+    "emailId": "sophie.m@clinique.fr",
+    "mobileNo": "+33 6 12 34 56 78",
+    "location": "Paris"
+  },
+  {
+    "doctorName": "Rajesh Patel",
+    "specialization": "Orthopedics",
+    "experience": 15,
+    "emailId": "dr.patel@ortho.in",
+    "mobileNo": "+91 98765 43210",
+    "location": "Mumbai"
+  },
+  {
+    "doctorName": "Maria Rodriguez",
+    "specialization": "Dermatology",
+    "experience": 9,
+    "emailId": "maria.r@derma.es",
+    "mobileNo": "+34 612 345 678",
+    "location": "Barcelona"
+  },
+  {
+    "doctorName": "John Smith",
+    "specialization": "Gastroenterology",
+    "experience": 11,
+    "emailId": "j.smith@hospital.uk",
+    "mobileNo": "+44 7700 900123",
+    "location": "London"
+  },
+  {
+    "doctorName": "Yuki Tanaka",
+    "specialization": "Ophthalmology",
+    "experience": 7,
+    "emailId": "tanaka.yuki@eye.jp",
+    "mobileNo": "+81 90-1234-5678",
+    "location": "Tokyo"
+  },
+  {
+    "doctorName": "Olga Ivanova",
+    "specialization": "Endocrinology",
+    "experience": 10,
+    "emailId": "o.ivanova@clinic.ru",
+    "mobileNo": "+7 915 123-45-67",
+    "location": "Moscow"
+  },
+  {
+    "doctorName": "Carlos Oliveira",
+    "specialization": "Psychiatry",
+    "experience": 13,
+    "emailId": "dr.oliveira@mental.br",
+    "mobileNo": "+55 11 98765-4321",
+    "location": "S�o Paulo"
+  }
+]

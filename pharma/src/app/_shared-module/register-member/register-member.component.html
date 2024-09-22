@@ -1,0 +1,87 @@
+<div class="add-drug-container" style="position: relative;">
+    <span class="close-btn" (click)="onCancel()" style="position: absolute; top: 10px; right: 10px; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0071bd">
+            <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+        </svg>
+    </span>
+    <h2 class="dialog-title">Add New Member</h2>
+    <div class="dialog-content">
+        <form [formGroup]="memberForm" (ngSubmit)="onSubmit()" class="drug-form">
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" formControlName="name" placeholder="Enter name" required>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('name')?.hasError('required') && memberForm.get('name')?.touched">
+                        Name is required
+                    </div>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('name')?.hasError('maxlength') && memberForm.get('name')?.touched">
+                        Name must not exceed 100 characters
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" formControlName="age" placeholder="Enter age" required>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('age')?.hasError('required') && memberForm.get('age')?.touched">
+                        Age is required
+                    </div>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('age')?.hasError('min') && memberForm.get('age')?.touched">
+                        Age must be 0 or greater
+                    </div>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('age')?.hasError('max') && memberForm.get('age')?.touched">
+                        Age must not exceed 150
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="emailId">Email</label>
+                    <input type="email" id="emailId" formControlName="emailId" placeholder="Enter email" required>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('emailId')?.hasError('required') && memberForm.get('emailId')?.touched">
+                        Email is required
+                    </div>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('emailId')?.hasError('email') && memberForm.get('emailId')?.touched">
+                        Please enter a valid email address
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="mobileNo">Mobile Number</label>
+                    <input type="tel" id="mobileNo" formControlName="mobileNo" placeholder="Enter mobile number"
+                        required>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('mobileNo')?.hasError('required') && memberForm.get('mobileNo')?.touched">
+                        Mobile number is required
+                    </div>
+                    <div class="error-message"
+                        *ngIf="memberForm.get('mobileNo')?.hasError('pattern') && memberForm.get('mobileNo')?.touched">
+                        Please enter a valid 10-digit mobile number
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="disease">Disease</label>
+                    <input type="text" id="disease" formControlName="disease" placeholder="Enter disease">
+                    <div class="error-message"
+                        *ngIf="memberForm.get('disease')?.hasError('maxlength') && memberForm.get('disease')?.touched">
+                        Disease must not exceed 200 characters
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="form-actions">
+        <button type="button" (click)="onCancel()" class="btn btn-secondary">Cancel</button>&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="memberForm.invalid">Add
+            Member</button>
+    </div>
+</div>

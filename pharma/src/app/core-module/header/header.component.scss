@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --primary-color: #0071bd;
+    --primary-light: #3291d1;
+    --grey-light: #f0f0f0;
+    --grey-dark: #333333;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0071bd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .logo-svg {
+    height: 40px;
+    width: auto;
+  }
+
+  .logo-text {
+    font-size: 24px;
+    font-weight: 600;
+    fill: #e0e0e0; // Bright grey color
+    animation: logoAnimation 3s ease-in-out infinite;
+  }
+  
+  @keyframes logoAnimation {
+    0%, 100% {
+      fill: #e0e0e0;
+    }
+    50% {
+      fill: #ffffff;
+    }
+  }
+  
+  .logo-img {
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .register-btn {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .register-btn:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    // box-sizing: border-box !important;
+    box-sizing: content-box;
+
+  }
+  
+  .nav-link:hover::after,
+  .nav-link:focus::after {
+    transform: scaleX(1);
+  }
+  
+  .nav-link:active {
+    animation: clickPulse 0.3s ease-out;
+  }
+
+  .nav-link:hover {
+    background-color: var(--grey-light);
+    box-shadow: 0 2px 8px rgba(0, 113, 189, 0.3);
+    cursor: pointer;
+  }
+  
+  @keyframes clickPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+  }
+  
+  .register-btn {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color: var(--grey-light);
+    box-shadow: 0 2px 8px rgba(0, 113, 189, 0.3);
+  }
+  
+  .register-btn:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+  
+  .profile-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--grey-dark);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+  
+  .profile-btn:hover {
+    color: var(--primary-color);
+    background-color: rgba(0, 113, 189, 0.1);
+  }
+  
+  .profile-btn:active {
+    transform: scale(0.9);
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+    }
+    
+    .nav-links {
+      flex-direction: column;
+      margin-top: 1rem;
+      width: 100%;
+    }
+    
+    .nav-link {
+      text-align: center;
+    }
+    
+    .profile {
+      align-self: flex-end;
+      margin-top: 1rem;
+    }
+  }

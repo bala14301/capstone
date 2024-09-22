@@ -1,0 +1,1059 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\refillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\refillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\controllers\\refillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:controllers\\refillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\refillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\refillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\irefillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\irefillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\irefillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\irefillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\subscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\subscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\models\\membersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:models\\membersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\models\\memberprescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:models\\memberprescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\membersubscriptions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:membersubscriptions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\memberprescriptions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:memberprescriptions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240920213519_Inital332.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240920213519_Inital332.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\membersubscription.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:membersubscription.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\prescriptionservics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\prescriptionservics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\iprescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\iprescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\iprescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\iprescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\doctors.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:doctors.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\controllers\\drugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:controllers\\drugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240920203724_Inital33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240920203724_Inital33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\models\\drug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:models\\drug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\models\\refillorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:models\\refillorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\drugrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\drugrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\idrugrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\idrugrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\drugservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\drugservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\drugs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:drugs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\swaggerauthorizationoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:swaggerauthorizationoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\dto\\refilldetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:dto\\refilldetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\dto\\adhocrefillrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:dto\\adhocrefillrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\models\\refillorderlineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:models\\refillorderlineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\services\\idrugservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:services\\idrugservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\dto\\unsubscriptionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:dto\\unsubscriptionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\dto\\drugrefillinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:dto\\drugrefillinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\migrations\\20240915073009_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:migrations\\20240915073009_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\migrations\\20240916171723_intial14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:migrations\\20240916171723_intial14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\migrations\\20240916134134_intial13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:migrations\\20240916134134_intial13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\migrations\\20240915124423_intial12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:migrations\\20240915124423_intial12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|c:\\users\\user\\desktop\\desktop files\\drugs_apis\\drugsapi_new\\migrations\\20240915073558_intial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D42B64AA-6491-4028-B8EE-CDCE438D13BC}|DrugsAPI_New.csproj|solutionrelative:migrations\\20240915073558_intial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwFYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:04:25.837Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\ISubscriptionService.cs",
+              "RelativeDocumentMoniker": "Services\\ISubscriptionService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\ISubscriptionService.cs",
+              "RelativeToolTip": "Services\\ISubscriptionService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T23:43:36.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\SubscriptionService.cs",
+              "RelativeDocumentMoniker": "Services\\SubscriptionService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\SubscriptionService.cs",
+              "RelativeToolTip": "Services\\SubscriptionService.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAMwMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T09:17:54.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefillController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\RefillController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RefillController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\RefillController.cs",
+              "RelativeToolTip": "Controllers\\RefillController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAArwDkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:45:41.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RefillService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\RefillService.cs",
+              "RelativeDocumentMoniker": "Services\\RefillService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\RefillService.cs",
+              "RelativeToolTip": "Services\\RefillService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIAwwC0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:38:04.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRefillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IRefillRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRefillRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IRefillRepository.cs",
+              "RelativeToolTip": "Repositories\\IRefillRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:38:59.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRefillService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IRefillService.cs",
+              "RelativeDocumentMoniker": "Services\\IRefillService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IRefillService.cs",
+              "RelativeToolTip": "Services\\IRefillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:37:43.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RefillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\RefillRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RefillRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\RefillRepository.cs",
+              "RelativeToolTip": "Repositories\\RefillRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAMwEwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:55:41.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubscriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\SubscriptionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubscriptionController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\SubscriptionController.cs",
+              "RelativeToolTip": "Controllers\\SubscriptionController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:47:19.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubscriptionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\SubscriptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SubscriptionRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\SubscriptionRepository.cs",
+              "RelativeToolTip": "Repositories\\SubscriptionRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAWwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:34:22.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MemberSubscription.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\MemberSubscription.cs",
+              "RelativeDocumentMoniker": "Models\\MemberSubscription.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\MemberSubscription.cs",
+              "RelativeToolTip": "Models\\MemberSubscription.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:52:19.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MemberPrescription.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\MemberPrescription.cs",
+              "RelativeDocumentMoniker": "Models\\MemberPrescription.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\MemberPrescription.cs",
+              "RelativeToolTip": "Models\\MemberPrescription.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:23:16.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\Member.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\Member.cs",
+              "RelativeToolTip": "Models\\Member.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:13:47.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MemberSubscriptions.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\MemberSubscriptions.json",
+              "RelativeDocumentMoniker": "MemberSubscriptions.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\MemberSubscriptions.json",
+              "RelativeToolTip": "MemberSubscriptions.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T22:30:48.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MemberPrescriptions.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\MemberPrescriptions.json",
+              "RelativeDocumentMoniker": "MemberPrescriptions.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\MemberPrescriptions.json",
+              "RelativeToolTip": "MemberPrescriptions.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T21:27:51.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240920213519_Inital332.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240920213519_Inital332.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240920213519_Inital332.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240920213519_Inital332.cs",
+              "RelativeToolTip": "Migrations\\20240920213519_Inital332.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:35:19.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPrescriptionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IPrescriptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPrescriptionRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IPrescriptionRepository.cs",
+              "RelativeToolTip": "Repositories\\IPrescriptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:23:03.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PrescriptionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\PrescriptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PrescriptionRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\PrescriptionRepository.cs",
+              "RelativeToolTip": "Repositories\\PrescriptionRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:23:15.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PrescriptionServics.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\PrescriptionServics.cs",
+              "RelativeDocumentMoniker": "Services\\PrescriptionServics.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\PrescriptionServics.cs",
+              "RelativeToolTip": "Services\\PrescriptionServics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:24:26.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:00:53.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MemberSubscription.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\MemberSubscription.json",
+              "RelativeDocumentMoniker": "MemberSubscription.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\MemberSubscription.json",
+              "RelativeToolTip": "MemberSubscription.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T21:27:48.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IPrescriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IPrescriptionService.cs",
+              "RelativeDocumentMoniker": "Services\\IPrescriptionService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IPrescriptionService.cs",
+              "RelativeToolTip": "Services\\IPrescriptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:22:48.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PrescriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\PrescriptionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrescriptionController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\PrescriptionController.cs",
+              "RelativeToolTip": "Controllers\\PrescriptionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:22:28.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Doctors.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Doctors.json",
+              "RelativeDocumentMoniker": "Doctors.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Doctors.json",
+              "RelativeToolTip": "Doctors.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T20:43:27.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAADwv1oAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:55:34.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DrugsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\DrugsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DrugsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\DrugsController.cs",
+              "RelativeToolTip": "Controllers\\DrugsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T08:44:23.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Controllers\\MemberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:06:37.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:07:31.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IDoctorService.cs",
+              "RelativeToolTip": "Services\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:08:51.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240920203724_Inital33.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240920203724_Inital33.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240920203724_Inital33.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240920203724_Inital33.cs",
+              "RelativeToolTip": "Migrations\\20240920203724_Inital33.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:37:24.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwE0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:26:58.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\DoctorService.cs",
+              "RelativeToolTip": "Services\\DoctorService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:33:44.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IMemberRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IMemberRepository.cs",
+              "RelativeToolTip": "Repositories\\IMemberRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:35:47.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\MemberService.cs",
+              "RelativeDocumentMoniker": "Services\\MemberService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\MemberService.cs",
+              "RelativeToolTip": "Services\\MemberService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:36:11.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\DoctorRepository.cs",
+              "RelativeToolTip": "Repositories\\DoctorRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:10:13.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IDoctorRepository.cs",
+              "RelativeToolTip": "Repositories\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:34:29.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IMemberService.cs",
+              "RelativeDocumentMoniker": "Services\\IMemberService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IMemberService.cs",
+              "RelativeToolTip": "Services\\IMemberService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:06:49.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\Doctor.cs",
+              "RelativeToolTip": "Models\\Doctor.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:08:26.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MemberRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\MemberRepository.cs",
+              "RelativeToolTip": "Repositories\\MemberRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:10:34.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Drug.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\Drug.cs",
+              "RelativeDocumentMoniker": "Models\\Drug.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\Drug.cs",
+              "RelativeToolTip": "Models\\Drug.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:52:10.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RefillOrder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\RefillOrder.cs",
+              "RelativeDocumentMoniker": "Models\\RefillOrder.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\RefillOrder.cs",
+              "RelativeToolTip": "Models\\RefillOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:52:25.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IDrugRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IDrugRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDrugRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IDrugRepository.cs",
+              "RelativeToolTip": "Repositories\\IDrugRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:55:18.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DrugRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\DrugRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DrugRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\DrugRepository.cs",
+              "RelativeToolTip": "Repositories\\DrugRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:54:53.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DrugService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\DrugService.cs",
+              "RelativeDocumentMoniker": "Services\\DrugService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\DrugService.cs",
+              "RelativeToolTip": "Services\\DrugService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwE0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:51:19.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:00:42.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:41:47.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:04:03.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:58:23.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-15T07:26:03.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Drugs.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Drugs.json",
+              "RelativeDocumentMoniker": "Drugs.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Drugs.json",
+              "RelativeToolTip": "Drugs.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T04:45:11.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SwaggerAuthorizationOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\SwaggerAuthorizationOperationFilter.cs",
+              "RelativeDocumentMoniker": "SwaggerAuthorizationOperationFilter.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\SwaggerAuthorizationOperationFilter.cs",
+              "RelativeToolTip": "SwaggerAuthorizationOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:28:17.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RefillDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\DTO\\RefillDetailsDto.cs",
+              "RelativeDocumentMoniker": "DTO\\RefillDetailsDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\DTO\\RefillDetailsDto.cs",
+              "RelativeToolTip": "DTO\\RefillDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:46:13.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20240916171723_Intial14.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240916171723_Intial14.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240916171723_Intial14.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240916171723_Intial14.cs",
+              "RelativeToolTip": "Migrations\\20240916171723_Intial14.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:17:23.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AdhocRefillRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\DTO\\AdhocRefillRequestDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AdhocRefillRequestDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\DTO\\AdhocRefillRequestDto.cs",
+              "RelativeToolTip": "DTO\\AdhocRefillRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T10:22:36.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RefillOrderLineItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\RefillOrderLineItem.cs",
+              "RelativeDocumentMoniker": "Models\\RefillOrderLineItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Models\\RefillOrderLineItem.cs",
+              "RelativeToolTip": "Models\\RefillOrderLineItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:34:37.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20240916134134_Intial13.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240916134134_Intial13.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240916134134_Intial13.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240916134134_Intial13.cs",
+              "RelativeToolTip": "Migrations\\20240916134134_Intial13.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:41:35.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IDrugService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IDrugService.cs",
+              "RelativeDocumentMoniker": "Services\\IDrugService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Services\\IDrugService.cs",
+              "RelativeToolTip": "Services\\IDrugService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:18:22.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20240915124423_Intial12.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240915124423_Intial12.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240915124423_Intial12.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240915124423_Intial12.cs",
+              "RelativeToolTip": "Migrations\\20240915124423_Intial12.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T12:44:23.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UnsubscriptionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\DTO\\UnsubscriptionRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\UnsubscriptionRequest.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\DTO\\UnsubscriptionRequest.cs",
+              "RelativeToolTip": "DTO\\UnsubscriptionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:49:27.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DrugRefillInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\DTO\\DrugRefillInfo.cs",
+              "RelativeDocumentMoniker": "DTO\\DrugRefillInfo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\DTO\\DrugRefillInfo.cs",
+              "RelativeToolTip": "DTO\\DrugRefillInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:49:06.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20240915073558_Intial1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240915073558_Intial1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240915073558_Intial1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240915073558_Intial1.cs",
+              "RelativeToolTip": "Migrations\\20240915073558_Intial1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:35:59.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240915073009_Intial.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240915073009_Intial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240915073009_Intial.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Desktop Files\\Drugs_APIS\\DrugsAPI_New\\Migrations\\20240915073009_Intial.cs",
+              "RelativeToolTip": "Migrations\\20240915073009_Intial.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:30:09.946Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

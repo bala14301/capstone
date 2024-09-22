@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+
+:root {
+  --font-primary: 'Poppins', sans-serif;
+  --color-text: #333;
+  --color-muted: #6c757d;
+}
+
+* {
+  font-family: var(--font-primary);
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+// ... rest of your global styles ...
+.cdk-overlay-container {
+  position: fixed;
+  z-index: 1000000; // Increased z-index
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cdk-overlay-backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  pointer-events: auto;
+  transition: opacity 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  opacity: 0;
+  
+  &.cdk-overlay-backdrop-showing {
+    opacity: 0.5; // Adjust this value to change the darkness of the backdrop
+    background-color: #000; // Black backdrop
+  }
+}
+
+.cdk-overlay-pane {
+  position: relative;
+  pointer-events: auto;
+  box-sizing: border-box;
+  z-index: 1000001; // Increased z-index to be above the backdrop
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// Disable scrolling on the body when overlay is active
+body.cdk-overlay-active {
+  overflow: hidden;
+}
+
+
+// Styles for select elements
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #0071bd;
+  box-shadow: 0 0 0 2px rgba(0, 123, 189, 0.2);
+}
+
+// Custom dropdown arrow
+select {
+  background-image: 
+    linear-gradient(45deg, transparent 50%, grey 50%),
+    linear-gradient(135deg, grey 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px);
+  background-size:
+    5px 5px,
+    5px 5px;
+  background-repeat: no-repeat;
+}
+
+// Hover effect
+select:hover {
+  border-color: #0071bd;
+}
+
+// Disabled state
+select:disabled {
+  background-color: #f5f5f5;
+  color: #999;
+  cursor: not-allowed;
+}
+
+// Option styles
+option {
+  padding: 10px;
+  background-color: white;
+  color: #333;
+}
+
+option:hover, option:focus {
+  background-color: #e6f3fa;
+  color: #0071bd;
+}

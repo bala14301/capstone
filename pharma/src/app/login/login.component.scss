@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%; // Changed from 100% to 90%
+    max-width: 350px; // Reduced from 400px to 350px
+}
+
+.login-header {
+    text-align: center;
+    color: #0071bd;
+    margin-bottom: 2rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px; // Increased from 20px
+}
+
+input {
+    width: calc(100% - 20px); // Adjusted to account for padding
+    padding: 12px 10px; // Increased vertical padding
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0071bd;
+}
+.error-message {
+    font-size: 0.75em;
+    color: #cb0000;
+  }
+
+.login-button,
+.toggle-btn,
+.auth-button {
+    background-color: #0071bd;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.login-button:hover,
+.toggle-btn:hover,
+.auth-button:hover {
+    background-color: #005a94;
+}
+
+.login-button:active,
+.toggle-btn:active,
+.auth-button:active {
+    animation: clickAnimation 0.3s ease;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    margin: 5px;
+
+    &.active {
+        background-color: #0071bd;
+    }
+
+    &:not(.active) {
+        background-color: #808080; // Grey color for inactive state
+    }
+}
+
+.auth-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@keyframes clickAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s ease all;
+    padding: 0 5px; // Added padding
+}
+
+input:focus~.floating-label,
+input:not(:placeholder-shown)~.floating-label {
+    top: -15px; // Adjusted from -12px
+    left: 5px;
+    font-size: 12px;
+    opacity: 1;
+    background: white;
+    padding: 0 5px;
+}
+
+input {
+    width: calc(100% - 20px); // Adjusted to account for padding
+    padding: 12px 10px; // Increased vertical padding
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.toggle-btn, .auth-button {
+    background-color: #0071bd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: darken(#0071bd, 10%);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+.toggle-btn {
+    &.active {
+        background-color: #0071bd;
+    }
+
+    &:not(.active) {
+        background-color: #808080; // Grey color for inactive state
+    }
+}
+
+.auth-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@keyframes clickAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.toggle-btn:active, .auth-button:active {
+    animation: clickAnimation 0.3s ease;
+}
+

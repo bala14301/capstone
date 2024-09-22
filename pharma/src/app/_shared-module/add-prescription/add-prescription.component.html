@@ -1,0 +1,124 @@
+<div class="add-drug-container" style="position: relative;">
+    <span class="close-btn" (click)="onCancel()" style="position: absolute; top: 10px; right: 10px; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0071bd">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+        </svg>
+    </span>
+    <h2 class="dialog-title">{{ isEditing ? 'Update' : 'Add New' }} Prescription</h2>
+    <div class="dialog-content">
+        <form [formGroup]="prescriptionForm" (ngSubmit)="onSubmit()" class="drug-form">
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="memberId">Member ID</label>
+                    <select id="memberId" formControlName="memberId" required>
+                        <option value="" disabled selected>Select Member ID</option>
+                        <option *ngFor="let member of members" [value]="member.id">
+                            {{member.id}} - {{member.name}}
+                        </option>
+                    </select>
+                    <div class="error-message" *ngIf="prescriptionForm.get('memberId')?.hasError('required') && prescriptionForm.get('memberId')?.touched">
+                        Member ID is required
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="dosage">Dosage</label>
+                    <select id="dosage" formControlName="dosage" required>
+                        <option value="" disabled selected>Select dosage</option>
+                        <option *ngFor="let option of dosageOptions" [value]="option.value">
+                            {{option.viewValue}}
+                        </option>
+                    </select>
+                    <div class="error-message" *ngIf="prescriptionForm.get('dosage')?.hasError('required') && prescriptionForm.get('dosage')?.touched">
+                        Dosage is required
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="frequency">Frequency</label>
+                    <select id="frequency" formControlName="frequency" required>
+                        <option value="" disabled selected>Select frequency</option>
+                        <option *ngFor="let option of frequencyOptions" [value]="option.value">
+                            {{option.viewValue}}
+                        </option>
+                    </select>
+                    <div class="error-message" *ngIf="prescriptionForm.get('frequency')?.hasError('required') && prescriptionForm.get('frequency')?.touched">
+                        Frequency is required
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="startDate">Start Date</label>
+                    <input type="date" id="startDate" formControlName="startDate" required>
+                    <div class="error-message" *ngIf="prescriptionForm.get('startDate')?.hasError('required') && prescriptionForm.get('startDate')?.touched">
+                        Start Date is required
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="endDate">End Date</label>
+                    <input type="date" id="endDate" formControlName="endDate" required>
+                    <div class="error-message" *ngIf="prescriptionForm.get('endDate')?.hasError('required') && prescriptionForm.get('endDate')?.touched">
+                        End Date is required
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="refills">Refills</label>
+                    <input type="number" id="refills" formControlName="refills" placeholder="Enter number of refills" required>
+                    <div class="error-message" *ngIf="prescriptionForm.get('refills')?.hasError('required') && prescriptionForm.get('refills')?.touched">
+                        Refills is required
+                    </div>
+                    <div class="error-message" *ngIf="prescriptionForm.get('refills')?.hasError('min') && prescriptionForm.get('refills')?.touched">
+                        Refills must be 0 or greater
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="lastRefillDate">Last Refill Date</label>
+                    <input type="date" id="lastRefillDate" formControlName="lastRefillDate">
+                </div>
+            </div>
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="isActive">Is Active</label>
+                    <input type="checkbox" id="isActive" formControlName="isActive">
+                </div>
+                <div class="form-group col">
+                    <label for="prescribedBy">Prescribed By</label>
+                    <input type="text" id="prescribedBy" formControlName="prescribedBy" placeholder="Enter prescriber's name" required list="doctorsList">
+                    <datalist id="doctorsList">
+                        <option *ngFor="let doctor of doctors" [value]="doctor.doctorName">
+                    </datalist>
+                    <div class="error-message" *ngIf="prescriptionForm.get('prescribedBy')?.hasError('required') && prescriptionForm.get('prescribedBy')?.touched">
+                        Prescriber's name is required
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="drugIds">Select Drugs</label>
+                    <div class="custom-multiselect">
+                        <select multiple id="drugIds" formControlName="drugIds">
+                            <option *ngFor="let drug of drugs" [value]="drug.id">
+                                <input type="checkbox" [checked]="isDrugSelected(drug.id)">
+                                {{ drug.name }}
+                            </option>
+                        </select>
+                    </div>
+                    <div class="error-message" *ngIf="prescriptionForm.get('drugIds')?.hasError('required') && prescriptionForm.get('drugIds')?.touched">
+                        At least one drug must be selected
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="form-actions">
+        <button type="button" (click)="onCancel()" class="btn btn-secondary">Cancel</button>&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="prescriptionForm.invalid">
+            {{ isEditing ? 'Update' : 'Add' }} Prescription
+        </button>
+    </div>
+</div>

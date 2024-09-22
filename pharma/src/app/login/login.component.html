@@ -1,0 +1,73 @@
+<div class="login-container">
+  <div class="auth-container">
+    <div class="auth-box" [ngClass]="{'slide-left': !showLogin, 'slide-right': showLogin}">
+      <!-- Auth toggle for both login and signup boxes -->
+      <div class="auth-toggle-container">
+        <div class="auth-toggle">
+          <button (click)="showLogin = true" [class.active]="showLogin" class="toggle-btn login-toggle-btn">Login</button>
+          <button (click)="showLogin = false" [class.active]="!showLogin" class="toggle-btn signup-toggle-btn">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="login-box" *ngIf="showLogin">
+        <h2 class="auth-header">Login to Pharma </h2>
+        <!-- Existing login form -->
+        <form [formGroup]="loginForm" class="auth-form">
+          <div class="form-group">
+            <input type="text" id="username" formControlName="username" required>
+            <label for="username" class="floating-label">Username</label>
+            <span *ngIf="loginForm.get('username')?.invalid && (loginForm.get('username')?.dirty || loginForm.get('username')?.touched)" class="error-message">
+              <span *ngIf="loginForm.get('username')?.errors?.['required']">Username is required.</span>
+            </span>
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" formControlName="password" required>
+            <label for="password" class="floating-label">Password</label>
+            <span *ngIf="loginForm.get('password')?.invalid && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)" class="error-message">
+              Please Enter Password
+            </span>
+          </div>
+          <button type="button" class="auth-button" (click)="login()">Sign In</button>
+        </form>
+      </div>
+
+      <div class="signup-box" *ngIf="!showLogin">
+        <h2 class="auth-header">Sign Up for Pharma </h2>
+        <!-- Existing signup form -->
+        <form [formGroup]="signupForm" class="auth-form">
+          <div class="form-group">
+            <input type="text" id="newUsername" formControlName="username" required>
+            <label for="newUsername" class="floating-label">Username</label>
+            <span *ngIf="signupForm.get('username')?.invalid && (signupForm.get('username')?.dirty || signupForm.get('username')?.touched)" class="error-message">
+              <span *ngIf="signupForm.get('username')?.errors?.['required']">Username is required.</span>
+            </span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" formControlName="email" required>
+            <label for="email" class="floating-label">Email</label>
+            <span *ngIf="signupForm.get('email')?.invalid && (signupForm.get('email')?.dirty || signupForm.get('email')?.touched)" class="error-message">
+              <span *ngIf="signupForm.get('email')?.errors?.['required']">Email is required.</span>
+              <span *ngIf="signupForm.get('email')?.errors?.['email']">Please enter a valid email.</span>
+            </span>
+          </div>
+          <div class="form-group">
+            <input type="password" id="newPassword" formControlName="password" required>
+            <label for="newPassword" class="floating-label">Password</label>
+            <span *ngIf="signupForm.get('password')?.invalid && (signupForm.get('password')?.dirty || signupForm.get('password')?.touched)" class="error-message">
+              <span *ngIf="signupForm.get('password')?.errors?.['required']">Password is 6 min length required.</span>
+            </span>
+          </div>
+          <div class="form-group">
+            <input type="text" id="mobileNo" formControlName="mobileNo" required>
+            <label for="mobileNo" class="floating-label">Mobile Number</label>
+            <span *ngIf="signupForm.get('mobileNo')?.invalid && (signupForm.get('mobileNo')?.dirty || signupForm.get('mobileNo')?.touched)" class="error-message">
+              <span *ngIf="signupForm.get('mobileNo')?.errors?.['required']">Mobile number is required.</span>
+              <span *ngIf="signupForm.get('mobileNo')?.errors?.['pattern']">Please enter a valid 10-digit mobile number.</span>
+            </span>
+          </div>
+          <button type="button" class="auth-button" (click)="onSignup()">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

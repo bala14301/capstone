@@ -1,0 +1,71 @@
+[
+    {
+      "memberId": "M001",
+      "subscriptionDate": "2024-01-15T10:30:00.000Z",
+      "prescriptionId": 1001,
+      "refillOccurrence": "Monthly",
+      "memberLocation": "New York",
+      "endDate": "2025-01-14T23:59:59.999Z",
+      "startDate": "2024-01-15T00:00:00.000Z",
+      "subscriptionStatus": 1
+    },
+    {
+      "memberId": "M002",
+      "subscriptionDate": "2024-02-01T14:45:00.000Z",
+      "prescriptionId": 1002,
+      "refillOccurrence": "Bi-weekly",
+      "memberLocation": "Los Angeles",
+      "endDate": "2024-07-31T23:59:59.999Z",
+      "startDate": "2024-02-01T00:00:00.000Z",
+      "subscriptionStatus": 1
+    },
+    {
+      "memberId": "M003",
+      "subscriptionDate": "2024-03-10T09:15:00.000Z",
+      "prescriptionId": 1003,
+      "refillOccurrence": "Weekly",
+      "memberLocation": "Chicago",
+      "endDate": "2024-09-09T23:59:59.999Z",
+      "startDate": "2024-03-10T00:00:00.000Z",
+      "subscriptionStatus": 2
+    },
+    {
+      "memberId": "M004",
+      "subscriptionDate": "2024-04-05T11:00:00.000Z",
+      "prescriptionId": 1004,
+      "refillOccurrence": "Monthly",
+      "memberLocation": "Houston",
+      "endDate": "2025-04-04T23:59:59.999Z",
+      "startDate": "2024-04-05T00:00:00.000Z",
+      "subscriptionStatus": 1
+    },
+    {
+      "memberId": "M005",
+      "subscriptionDate": "2024-05-20T16:30:00.000Z",
+      "prescriptionId": 1005,
+      "refillOccurrence": "Bi-monthly",
+      "memberLocation": "Phoenix",
+      "endDate": "2025-05-19T23:59:59.999Z",
+      "startDate": "2024-05-20T00:00:00.000Z",
+      "subscriptionStatus": 0
+    },
+    {
+      "memberId": "M006",
+      "subscriptionDate": "2024-06-12T13:45:00.000Z",
+      "prescriptionId": 1006,
+      "refillOccurrence": "Weekly",
+      "memberLocation": "Philadelphia",
+      "endDate": "2024-12-11T23:59:59.999Z",
+      "startDate": "2024-06-12T00:00:00.000Z",
+      "subscriptionStatus": 1
+    },
+    {
+      "memberId": "M007",
+      "subscriptionDate": "2024-07-03T10:00:00.000Z",
+      "prescriptionId": 1007,
+      "refillOccurrence": "Monthly",
+      "memberLocation": "San Antonio",
+      "endDate": "2025-07-02T23:59:59.999Z",
+      "startDate": "2024-07-03T00:00:00.000Z",
+      "subscriptionStatus": 2
+    }]

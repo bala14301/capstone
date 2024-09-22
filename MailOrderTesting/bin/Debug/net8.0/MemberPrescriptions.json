@@ -1,0 +1,98 @@
+﻿[
+  {
+    "memberId": "M001",
+    "drugIds": [ 101, 102 ],
+    "dosage": "20mg",
+    "frequency": "Twice daily",
+    "startDate": "2024-10-01T09:00:00Z",
+    "endDate": "2025-03-31T23:59:59Z",
+    "refills": 3,
+    "lastRefillDate": "2024-09-20T14:30:00Z",
+    "isActive": true,
+    "prescribedBy": "Dr. Smith"
+  },
+  {
+    "memberId": "M002",
+    "drugIds": [ 103 ],
+    "dosage": "10mg",
+    "frequency": "Once daily",
+    "startDate": "2024-09-25T08:00:00Z",
+    "endDate": "2024-12-24T23:59:59Z",
+    "refills": 2,
+    "lastRefillDate": "2024-09-22T10:15:00Z",
+    "isActive": true,
+    "prescribedBy": "Dr. Johnson"
+  },
+  {
+    "memberId": "M003",
+    "drugIds": [ 104, 105, 106 ],
+    "dosage": "15mg",
+    "frequency": "Three times daily",
+    "startDate": "2024-11-01T07:30:00Z",
+    "endDate": "2025-04-30T23:59:59Z",
+    "refills": 5,
+    "lastRefillDate": "2024-10-28T16:45:00Z",
+    "isActive": true,
+    "prescribedBy": "Dr. Williams"
+  },
+  {
+    "memberId": "M004",
+    "drugIds": [ 107 ],
+    "dosage": "5mg",
+    "frequency": "As needed",
+    "startDate": "2024-09-30T12:00:00Z",
+    "endDate": "2025-01-31T23:59:59Z",
+    "refills": 1,
+    "lastRefillDate": "2024-09-29T11:20:00Z",
+    "isActive": true,
+    "prescribedBy": "Dr. Brown"
+  },
+  {
+    "memberId": "M005",
+    "drugIds": [ 108, 109 ],
+    "dosage": "25mg",
+    "frequency": "Once weekly",
+    "startDate": "2024-10-15T10:00:00Z",
+    "endDate": "2025-06-14T23:59:59Z",
+    "refills": 4,
+    "lastRefillDate": "2024-10-10T09:30:00Z",
+    "isActive": true,
+    "prescribedBy": "Dr. Davis"
+  },
+  {
+    "memberId": "M006",
+    "drugIds": [ 110 ],
+    "dosage": "30mg",
+    "frequency": "Twice weekly",
+    "startDate": "2024-11-05T14:00:00Z",
+    "endDate": "2025-05-04T23:59:59Z",
+    "refills": 3,
+    "lastRefillDate": "2024-11-01T15:45:00Z",
+    "isActive": true,
+    "prescribedBy": "Dr. Miller"
+  },
+  {
+    "memberId": "M007",
+    "drugIds": [ 111, 112 ],
+    "dosage": "40mg",
+    "frequency": "Every other day",
+    "startDate": "2024-10-20T08:30:00Z",
+    "endDate": "2025-02-19T23:59:59Z",
+    "refills": 2,
+    "lastRefillDate": "2024-10-18T13:10:00Z",
+    "isActive": true,
+    "prescribedBy": "Dr. Wilson"
+  },
+  {
+    "memberId": "M008",
+    "drugIds": [ 113 ],
+    "dosage": "50mg",
+    "frequency": "Once daily",
+    "startDate": "2024-12-01T09:15:00Z",
+    "endDate": "2025-08-31T23:59:59Z",
+    "refills": 6,
+    "lastRefillDate": "2024-11-28T10:00:00Z",
+    "isActive": true,
+    "prescribedBy": "Dr. Moore"
+  }
+]

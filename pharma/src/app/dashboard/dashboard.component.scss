@@ -1,0 +1,112 @@
+.dashboard {
+    background-color: rgb(228, 232, 235);
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .dashboard-item {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+  }
+  
+  .dashboard-item h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  h2,h3{
+    color: #0071bd;
+  }
+
+  .add-drug-button {
+    background-color: #0071bd;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .add-drug-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 113, 189, 0.3);
+  }
+  
+  .add-drug-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 113, 189, 0.3);
+  }
+  
+  .add-drug-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0, 0);
+      opacity: 1;
+    }
+    20% {
+      transform: scale(25, 25);
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(40, 40);
+    }
+  }
+  
+  .add-drug-button:focus:not(:active)::after {
+    animation: ripple 1s ease-out;
+  }
+
+.search-drug-button {
+    background-color: #0071bd; // Background color
+    color: white; // Text color set to white
+    border: none; // No border
+    padding: 5px 10px; // Padding
+    border-radius: 5px; // Border radius
+    cursor: pointer; // Pointer cursor
+    display: inline-flex; // Flex display
+    align-items: center; // Center items
+    margin-right: 10px; // Right margin
+    margin-left: 10px; // Left margin
+    transition: all 0.3s ease; // Transition effect
+    position: relative; // Position relative
+    overflow: hidden; // Overflow hidden
+}
+  
+.search-drug-button:hover {
+    transform: translateY(-2px); // Hover effect
+    box-shadow: 0 4px 8px rgba(0, 113, 189, 0.3); // Hover shadow
+}
+  
+.search-drug-button:active {
+    transform: translateY(0); // Active effect
+    box-shadow: 0 2px 4px rgba(0, 113, 189, 0.3); // Active shadow
+}

@@ -1,0 +1,37 @@
+<header class="header" *ngIf="isLoggedIn">
+    <div class="logo">
+        <img src="../../../assets/images/biopharma.jfif" alt="Bio Pharma Logo" class="logo-img">
+    </div>
+    <nav class="nav-links">
+        <a routerLink="/dashboard" class="nav-link">Dashboard</a>
+        <a routerLink="/members" class="nav-link">Memberships</a>
+        <!-- <a href="#" class="nav-link">Drugs</a> -->
+        <!-- <a href="#" class="nav-link">Refill Prescription</a> -->
+        <a (click)="openRegisterMemberModal()" class="nav-link register-btn hover-light-grey">Register+</a>
+    </nav>
+    
+    <div class="profile">
+        <button class="profile-btn">
+            <i class="fas fa-user-circle"></i>
+        </button>
+    </div>
+    <div class="logout-container">
+        <span *ngIf="isLoggedIn" (click)="logout()" class="logout-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logout-icon">
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                <polyline points="16 17 21 12 16 7"></polyline>
+                <line x1="21" y1="12" x2="9" y2="12"></line>
+            </svg>
+            <style>
+                .logout-icon {
+                    transition: transform 0.3s ease-in-out;
+                    cursor: pointer;
+                }
+                .logout-icon:hover {
+                    transform: scale(1.1);
+                }
+            </style>
+           
+        </span>
+    </div>
+</header>

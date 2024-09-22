@@ -1,0 +1,119 @@
+<div class="add-drug-container" style="position: relative;">
+    <span class="close-btn" (click)="onCancel()" style="position: absolute; top: 10px; right: 10px; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#0071bd">
+            <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+        </svg>
+    </span>
+    <h2 class="dialog-title">Add New Subscription</h2>
+    <div class="dialog-content">
+        <form [formGroup]="susbcriptionForm" (ngSubmit)="onSubmit()" class="drug-form">
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="memberId">Member ID</label>
+                    <select id="memberId" formControlName="memberId" required>
+                        <option value="" disabled selected>Select Member ID</option>
+                        <option *ngFor="let member of members" [value]="member.id">
+                            {{member.id}} - {{member.name}}
+                        </option>
+                    </select>
+                    <div class="error-message"
+                        *ngIf="susbcriptionForm.get('memberId')?.hasError('required') && susbcriptionForm.get('memberId')?.touched">
+                        Member ID is required
+                    </div>
+                </div>
+                <!-- Removed age input -->
+                <div class="form-group col">
+                    <label for="refillOccurrence">Refill Occurrence</label>
+                    <select id="refillOccurrence" formControlName="refillOccurrence" required>
+                        <option value="" disabled selected>Select refill occurrence</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="biweekly">Bi-weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="quarterly">Quarterly</option>
+                    </select>
+                    <div class="error-message" *ngIf="susbcriptionForm.get('refillOccurrence')?.hasError('required') && susbcriptionForm.get('refillOccurrence')?.touched">
+                        Refill Occurrence is required
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="prescriptionId">Prescription</label>
+                    <select id="prescriptionId" formControlName="prescriptionId" required>
+                        <option value="" disabled selected>Select Prescription</option>
+                        <option *ngFor="let prescription of prescriptions" [value]="prescription.id">
+                            {{prescription.id}} - {{prescription.prescribedBy}}
+                        </option>
+                    </select>
+                    <div class="error-message"
+                        *ngIf="susbcriptionForm.get('prescriptionId')?.hasError('required') && susbcriptionForm.get('prescriptionId')?.touched">
+                        Prescription is required
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="memberLocation">Member Location</label>
+                    <input type="text" id="memberLocation" formControlName="memberLocation" list="memberLocationList" required>
+                    <datalist id="memberLocationList">
+                        <option *ngFor="let location of memberLocations" [value]="location">
+                    </datalist>
+                    <div class="error-message"
+                        *ngIf="susbcriptionForm.get('memberLocation')?.hasError('required') && susbcriptionForm.get('memberLocation')?.touched">
+                        Member location is required
+                    </div>
+                </div>
+            </div>
+
+            <!-- Removed disease input -->
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="subscriptionDate">Subscription Date</label>
+                    <input type="date" id="subscriptionDate" formControlName="subscriptionDate" required>
+                    <div class="error-message" *ngIf="susbcriptionForm.get('subscriptionDate')?.hasError('required') && susbcriptionForm.get('subscriptionDate')?.touched">
+                        Subscription Date is required
+                    </div>
+                </div>
+            </div>
+
+            <!-- Removed prescriptionId and refillOccurrence inputs -->
+
+            <!-- Removed memberLocation input -->
+
+            <div class="form-row row">
+                <div class="form-group col">
+                    <label for="startDate">Start Date</label>
+                    <input type="date" id="startDate" formControlName="startDate" required>
+                    <div class="error-message" *ngIf="susbcriptionForm.get('startDate')?.hasError('required') && susbcriptionForm.get('startDate')?.touched">
+                        Start Date is required
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="endDate">End Date</label>
+                    <input type="date" id="endDate" formControlName="endDate" required>
+                    <div class="error-message" *ngIf="susbcriptionForm.get('endDate')?.hasError('required') && susbcriptionForm.get('endDate')?.touched">
+                        End Date is required
+                    </div>
+                </div>
+                <div>
+                <div class="form-group col">
+                    <label for="subscriptionStatus">Subscription Status</label>
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="subscriptionStatus" formControlName="subscriptionStatus" (change)="updateSubscriptionStatus($event)">
+                        <label for="subscriptionStatus">{{ susbcriptionForm.get('subscriptionStatus')?.value ? 'Active' : 'Inactive' }}</label>
+                    </div>
+                    <div class="error-message" *ngIf="susbcriptionForm.get('subscriptionStatus')?.hasError('required') && susbcriptionForm.get('subscriptionStatus')?.touched">
+                        Subscription Status is required
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div class="form-actions">
+        <button type="button" (click)="onCancel()" class="btn btn-secondary">Cancel</button>&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="susbcriptionForm.invalid">SUbscribe</button>
+    </div>
+</div>
